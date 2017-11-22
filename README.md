@@ -2,7 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.
 
-##[Demo](https://2ajoyce.github.io/infiniteScrollDemo/)
+
+[Demo](https://2ajoyce.github.io/infiniteScrollDemo/)
 
 ## Development server
 
