@@ -1,0 +1,16 @@
+<div id="content">
+  <h1>Infinite Scroll Demo</h1>
+
+  <div class="list" *ngIf="people.length > 0"
+       infiniteScroll
+       [infiniteScrollDistance]="2"
+       [infiniteScrollThrottle]="50"
+       (scrolled)="nextPage()"
+  >
+    <div class="person" *ngFor="let person of people">
+      <strong>Name:</strong> {{person.name}}
+    </div>
+  </div>
+  <button (click)="nextPage()">Next Page</button>
+</div>
+

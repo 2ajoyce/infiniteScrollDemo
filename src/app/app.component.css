@@ -1,0 +1,13 @@
+#content {
+  width: 90%;
+  margin: auto;
+}
+
+button {
+  margin: 1em 0;
+}
+
+.person {
+  height: calc(100vh / 10);
+  margin: .5em 0;
+}
